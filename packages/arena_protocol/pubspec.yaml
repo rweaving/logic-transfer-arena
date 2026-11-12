@@ -1,0 +1,15 @@
+name: arena_protocol
+description: Binary lockstep wire frames, 16-tick rollback ring buffer, and Best-of-5 room protocol for Logic Transfer Arena.
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  arena_core:
+    path: ../arena_core
+
+dev_dependencies:
+  test: ^1.25.0

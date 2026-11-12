@@ -1,0 +1,23 @@
+# Dart & Flutter build artifacts
+.dart_tool/
+.packages
+build/
+**/build/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Node / Cloudflare Wrangler artifacts
+node_modules/
+**/node_modules/
+.wrangler/
+**/.wrangler/
+dist/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db

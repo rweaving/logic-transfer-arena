@@ -1,0 +1,12 @@
+name = "arena-edge-rooms"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[durable_objects]
+bindings = [
+  { name = "ARENA_ROOMS", class_name = "ArenaMatchRoom" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ArenaMatchRoom"]
